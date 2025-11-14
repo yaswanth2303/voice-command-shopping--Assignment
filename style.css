@@ -1,0 +1,37 @@
+* { box-sizing: border-box; font-family: "Segoe UI", sans-serif; }
+body {
+  background: #0e0e12; color: #f0f0f0;
+  display: flex; align-items: center; justify-content: center;
+  min-height: 100vh; margin: 0; padding: 0 10px;
+}
+.container {
+  width: 420px; max-width: 100%;
+  background: #1a1a22; padding: 25px;
+  border-radius: 15px; box-shadow: 0 0 25px rgba(0, 234, 255, 0.15);
+  text-align: center;
+}
+h1 { color: #00eaff; margin-bottom: 6px; }
+.subtitle { color: #aaa; margin-bottom: 20px; font-size: 14px; }
+button {
+  background: linear-gradient(135deg, #00eaff, #6b5bff);
+  border: none; padding: 12px 24px; color: black;
+  font-weight: bold; border-radius: 30px; cursor: pointer; font-size: 16px;
+}
+button:hover { opacity: 0.9; }
+.transcript { margin-top: 15px; font-size: 14px; color: #ccc; min-height: 20px; }
+h2 { margin-top: 25px; border-top: 1px solid #333; padding-top: 10px; }
+.shopping-list { list-style: none; padding: 0; margin-top: 10px; }
+.shopping-list li {
+  background: #2b2b34; padding: 10px; margin: 6px 0;
+  border-radius: 8px; display: flex; justify-content: space-between; align-items: center;
+}
+.shopping-list li button {
+  background: #ff4747; color: white; padding: 5px 10px;
+  font-size: 12px; border-radius: 5px;
+}
+.suggestions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.suggestions button {
+  background: #333; color: #00eaff; border: 1px solid #00eaff;
+  border-radius: 20px; padding: 6px 12px; cursor: pointer; font-size: 13px;
+}
+.suggestions button:hover { background: #00eaff; color: black; }
